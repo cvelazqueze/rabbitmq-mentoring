@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-mentoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johnkespitia/rabbitmq-mentoring.git"
+  },
+  "author": "Cvelz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johnkespitia/rabbitmq-mentoring/issues"
+  },
+  "homepage": "https://github.com/johnkespitia/rabbitmq-mentoring#readme",
+  "dependencies": {
+    "amqplib": "^0.8.0",
+    "express": "^4.17.1",
+    "nodemon": "^2.0.14"
+  }
+}
