@@ -8,6 +8,10 @@ app.listen(3000, () => {
     console.log ("Server running")
 });
 
+app.get("/url", (req, res, next) => {
+ res.json(["Tony","Lisa","Michael","Ginger","Food"]);
+});
+
 app.get("/", (req, res, next) =>  {
     res.json("Hello wold!");
     amqp.connect('amqp://localhost', function(error0, connection) {
